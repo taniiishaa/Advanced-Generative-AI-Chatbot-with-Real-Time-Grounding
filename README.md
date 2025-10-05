@@ -8,12 +8,12 @@
 
 This application masterfully combines three advanced capabilities—a technical trifecta that elevates its performance far beyond conventional demos.
 
-| Capability | What It Delivers | Visual Proof |
+| Capability | What It Delivers | Evidence in App |
 | :--- | :--- | :--- |
-| **Grounded Intelligence (RAG)** | Facts, not fantasy. By integrating the **Google Search tool**, the Oracle accesses the live web, eliminating model "hallucinations" and providing all answers with **verifiable, cited sources**. | ![Screenshot of Citations](image_be77c6.png) |
-| **Zero-Latency Streaming** | No more waiting. The use of token-level streaming ensures text appears instantly, giving the user a **fast, modern, and high-performance** conversational flow. | ![Screenshot of Streaming](image_bdfbad.png) |
-| **Strategic Persona Engineering** | We didn't build a generalist. A meticulously crafted **System Instruction** forces the Gemini model to adopt the voice of a **"World-Class Strategic Analyst,"** guaranteeing concise, high-value insights. | ![Screenshot of Persona](image_be6507.png) |
-| **Fluid Conversation Memory** | Seamless multi-turn dialogue is ensured through Streamlit's session state, allowing for complex, context-aware user journeys without losing track. | ![Screenshot of Chat History](image_bd1db1.png) |
+| **Grounded Intelligence (RAG)** | Facts, not fantasy. By integrating the **Google Search tool**, the Oracle accesses the live web, eliminating model "hallucinations" and providing all answers with **verifiable, cited sources**. | **Look for [Citations] with the response.** |
+| **Zero-Latency Streaming** | No more waiting. The use of token-level streaming ensures text appears instantly, giving the user a **fast, modern, and high-performance** conversational flow. | **Observe the real-time token output.** |
+| **Strategic Persona Engineering** | We didn't build a generalist. A meticulously crafted **System Instruction** forces the Gemini model to adopt the voice of a **"World-Class Strategic Analyst,"** guaranteeing concise, high-value insights. | **Note the expert, professional tone.** |
+| **Fluid Conversation Memory** | Seamless multi-turn dialogue is ensured through Streamlit's session state, allowing for complex, context-aware user journeys without losing track. | **Ask follow-up questions for proof.** |
 
 ---
 
@@ -34,7 +34,7 @@ This application masterfully combines three advanced capabilities—a technical 
     ```
 
 2.  **Install Dependencies:**
-    All required libraries are listed in `requirements.txt`.
+    All required libraries are listed in **`requirements.txt`**.
     ```bash
     pip install -r requirements.txt
     ```
